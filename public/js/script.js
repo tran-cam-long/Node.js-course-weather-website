@@ -49,6 +49,8 @@ weatherForm.addEventListener("submit", (event) => {
           "Temperature: " + data.temperature;
         document.querySelector("#result--feelslike").textContent =
           "Feels like: " + data.feelslike;
+        document.querySelector("#result--humidity").textContent =
+          "Humidity: " + data.humidity;
       }
     });
   });
