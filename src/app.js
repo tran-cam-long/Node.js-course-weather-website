@@ -42,6 +42,7 @@ app.get("/products", (req, res) => {
   }
   res.send({
     products: [],
+    haha: "dsad",
   });
 });
 
