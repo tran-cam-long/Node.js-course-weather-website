@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+
+  <body>
+    <div class="main-content">
+      {{>header}}
+      <form>
+        <input type="text" >
+        <button class="btn-search">Search</button>
+      </form>
+      <div class="result">
+        <p id="result--location">Location: </p>
+        <p id="result--temp">Temperature: </p>
+        <p id="result--feelslike">Feels Like: </p>
+      </div>
+      {{>bottom}}
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+
+</html>

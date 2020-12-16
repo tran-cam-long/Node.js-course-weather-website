@@ -1,0 +1,30 @@
+h1 {
+  color: green;
+}
+
+body {
+  color: #333333;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px 0 16px;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  color: #000000;
+  border-top: 10px solid green;
+  background-color: blue;
+  padding: 20px;
+  margin: 20px;
+}
+
+header a {
+}
+
+.result {
+  opacity: 0;
+}
